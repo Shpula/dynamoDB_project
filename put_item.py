@@ -4,8 +4,8 @@ import boto3
 response = []
 data = []
 params = {}
-AWS_KEY = "AKIAYVTEONBYJNT4D6YS"
-AWS_SECRET = "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"
+AWS_KEY = "********"
+AWS_SECRET = "***********"
 dynamodb_json = json.dumps('test')
 
 dynamo_res = boto3.resource('dynamodb',

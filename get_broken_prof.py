@@ -7,8 +7,8 @@ brands_list = []
 response = []
 data = []
 params = {}
-AWS_KEY = "AKIAYVTEONBYJNT4D6YS"
-AWS_SECRET = "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"
+AWS_KEY = "*******"
+AWS_SECRET = "**********"
 
 dynamo_res = boto3.resource('dynamodb',
                             aws_access_key_id=AWS_KEY,
